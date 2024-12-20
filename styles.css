@@ -20,10 +20,18 @@ body {
 #hero {
   color: rgb(255, 0, 144);
   background-image: url("https://64.media.tumblr.com/e840e08f192bd2df4df5826b1dc4c66b/tumblr_nz5pp6ezDD1ufh7yno1_500.gif");
-  padding: 50px 0 50px 0;
+  padding: 50px 0 42px 0;
   font-family: "Lobster", cursive;
   text-shadow: #caf53b 2px 2px;
   font-size: large;
+  border-bottom: 20px dashed rgb(48, 152, 237);
+  border-image: url("https://i.pinimg.com/originals/ec/c3/0b/ecc30bb74482e980763890f0cbc85bd1.gif")
+    30 round;
+}
+
+#hero:hover {
+  color: rgb(104, 37, 239);
+  text-shadow: #3bf595 2px 2px;
 }
 
 #actheader {
@@ -59,9 +67,14 @@ body {
   justify-content: space-around;
 }
 
+p:hover {
+  color: rgb(104, 37, 239);
+  text-shadow: #3bf595 2px 2px;
+}
+
 .activity {
   width: 400px;
-  border: 5px dashed rgb(48, 152, 237);
+  border: 5px dashed rgb(255, 130, 228);
   border-radius: 20%;
 }
 
