@@ -13,15 +13,15 @@ body {
   text-align: center;
   font-family: "Playwrite CO Guides", sans-serif;
   color: rgb(48, 152, 237);
-  background-image: url("https://t3.ftcdn.net/jpg/02/75/77/96/360_F_275779670_y4RIQ4UeDSwVJjZXdgzuX5B2DJaLJmd7.jpg");
+  background-image: url("https://64.media.tumblr.com/b8d5f96e5162cf3f6b823b362e635c40/tumblr_pskjd9bBfA1uzwgsuo1_400.gif");
   background-size: cover;
 }
 
 #hero {
   color: rgb(255, 0, 144);
   background-image: url("https://64.media.tumblr.com/e840e08f192bd2df4df5826b1dc4c66b/tumblr_nz5pp6ezDD1ufh7yno1_500.gif");
-  background-size: cover;
-  padding: 100px 0 100px 0;
+  /* background-size: cover; */
+  padding: 50px 0 50px 0;
   font-family: "Lobster", cursive;
   text-shadow: #caf53b 2px 2px;
   font-size: large;
