@@ -1,0 +1,104 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Playwrite CO Guides", sans-serif;
+  color: rgb(48, 152, 237);
+  background-image: url("https://t3.ftcdn.net/jpg/02/75/77/96/360_F_275779670_y4RIQ4UeDSwVJjZXdgzuX5B2DJaLJmd7.jpg");
+  background-size: cover;
+}
+
+#hero {
+  color: rgb(255, 0, 144);
+  background-image: url("https://64.media.tumblr.com/e840e08f192bd2df4df5826b1dc4c66b/tumblr_nz5pp6ezDD1ufh7yno1_500.gif");
+  background-size: cover;
+  padding: 100px 0 100px 0;
+  font-family: "Lobster", cursive;
+  text-shadow: #caf53b 2px 2px;
+  font-size: large;
+}
+
+#actheader {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(241, 69, 115);
+  text-shadow: #caf53b 2px 2px;
+  display: flex;
+  margin-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.main {
+  margin-bottom: 50px;
+}
+
+.activities-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.activities-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.activity {
+  width: 300px;
+  border: 5px dashed rgb(48, 152, 237);
+  border-radius: 20%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+.neko {
+  width: 100px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card {
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/0f/ff/ae/0fffae93224ab5852be35a8821656ee3.gif");
+  color: rgb(241, 69, 115);
+  border: 5px dashed rgb(48, 152, 237);
+  border-radius: 20%;
+}
+
+#guide-title {
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  text-shadow: #caf53b 2px 2px;
+}
+
+#guide {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(48, 152, 237);
+}
